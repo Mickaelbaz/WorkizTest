@@ -1,0 +1,22 @@
+{
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 150,
+    "tabWidth": 4,
+    "useTabs": false,
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "quoteProps": "as-needed",
+    "arrowParens": "always",
+    "cursorOffset": -1,
+    "parser": "typescript",
+    "overrides": [{
+            "files": "*.cy.ts",
+            "options": {
+                "printWidth": 150
+            }
+        }
+    ]
+}
